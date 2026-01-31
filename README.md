@@ -4,8 +4,8 @@ Price prediction system for O-gauge model locomotives built using eBay API data 
 
 1. Problem:
    - O gauge locomotives only
-   - eBay sold listings only
-   - Last 6 months
+   - eBay sold listings only\*\*
+     - Unable to do this with newer eBay API, so using current listings
    - Brands: Lionel, MTH, Atlas O
 
 2. Target variable:
@@ -21,7 +21,6 @@ Price prediction system for O-gauge model locomotives built using eBay API data 
      - Digital / conventional control
      - With / without sound
      - Listing title
-     - Sold date
    - Possible additions:
      - Seller feedback
      - With / without box
